@@ -36,3 +36,7 @@ variable "vnet_address" {
   type    = list(any)
   default = [""]
 }
+variable "subscription_id" {}
+variable "tenant_id" {}
+variable "client_id" {}
+variable "client_secret" {}
